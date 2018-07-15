@@ -1,0 +1,10 @@
+Design solution 1 - Inventory Management code
+
+1.  Code is runable in with Java 8 compiler from TestInventoryService.java class
+2.  Inventory items and operations is done on java cache. We can extend this to File or DB resource for storage of Inventory data
+3.  In this project we are calling InventoryServiceInterface via TestInvertoryService. We can extend to REST based API which will be invoked by any thin client like mobile or any other device
+4.  We can Spring based container to inject dependency services at runtime
+5.  I am doing basic Exception Handling and Validation and sending Error messages to TestInventoryService Client
+
+ 
+ 
